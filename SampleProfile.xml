@@ -1,0 +1,173 @@
+<profilecollection version="1.0">
+  <profile version="1.0" name="SampleProfile" createddate="">
+    <description>This is the Generic profile.</description>
+    <variablecollection>
+      <variable name="Launcher" category="cmdlineopt">
+        <value>Aemulus.Tech.Flow.Launcher.dll</value>
+      </variable>
+      <variable name="techFlow.SupportedTargetPlatform" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.SupportedTargetPlatform.IfParentNotFound" category="Settings">
+        <value>x86,x64</value>
+      </variable>
+      <variable name="techFlow.ShowTargetPlatformDropdown" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.ShowTargetPlatformDropdown.IfParentNotFound" category="Settings">
+        <value>Show</value>
+      </variable>
+      <variable name="techFlow.SupportedTargetFramework" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.SupportedTargetFramework.IfParentNotFound" category="Settings">
+        <value>NF2,NF4</value>
+      </variable>
+      <variable name="ProdSys.DefaultPlatform" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="ProdSys.DefaultPlatform.IfParentNotFound" category="Settings">
+        <value>x86</value>
+      </variable>
+      <variable name="ProdSys.DefaultFramework" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="ProdSys.DefaultFramework.IfParentNotFound" category="Settings">
+        <value>NF4</value>
+      </variable>
+      <variable name="VisualStudio.ProjectTemplatesDir" category="Library">
+        <value>..\..\bin\lib\vslib</value>
+      </variable>
+      <variable name="VisualStudio.DefaultProgrammingLanguage" category="Settings">
+        <value>Cpp</value>
+      </variable>
+      <variable name="VisualStudio.DefaultProjectTemplate.Cpp" category="Settings">
+        <value>AMB7600s</value>
+      </variable>
+      <variable name="VisualStudio.DefaultProjectTemplate.CppNF4" category="Settings">
+        <value>Default</value>
+      </variable>
+      <variable name="VisualStudio.PreferredIDE.Cpp" category="Settings">
+        <value>vc80</value>
+      </variable>
+      <variable name="VisualStudio.PreferredIDE.CppNF4" category="Settings">
+        <value>vs140</value>
+      </variable>
+      <variable name="VisualStudio.GeneratePlatform.Cpp" category="Settings">
+        <value>x86,x64</value>
+      </variable>
+      <variable name="VisualStudio.GeneratePlatform.CppNF4" category="Settings">
+        <value>x86,x64</value>
+      </variable>
+      <variable name="techFlow.Settings" category="Settings">
+        <value>Profile</value>
+      </variable>
+      <variable name="ProdSys.EDReplacement" category="Settings">
+        <value>Profile</value>
+      </variable>
+      <variable name="techFlow.Test.DefaultTestItemPathSelector" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.Test.DefaultTestItemPathSelector.IfParentNotFound" category="Settings">
+        <value>Fail</value>
+      </variable>
+      <variable name="techFlow.Test.LimitInheritResultPrefix" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.Test.LimitInheritResultPrefix.IfParentNotFound" category="Settings">
+        <value>True</value>
+      </variable>
+      <variable name="techFlow.Test.ShowTestNumber" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.Test.ShowTestNumber.IfParentNotFound" category="Settings">
+        <value>True</value>
+      </variable>
+      <variable name="techFlow.Test.TestNumberMode" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.Test.TestNumberMode.IfParentNotFound" category="Settings">
+        <value>userdefined</value>
+      </variable>
+      <variable name="techFlow.Test.GradingTestShareTestNumber" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.Test.GradingTestShareTestNumber.IfParentNotFound" category="Settings">
+        <value>True</value>
+      </variable>
+      <variable name="techFlow.CreateDebugGlobalVariable" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.CreateDebugGlobalVariable.IfParentNotFound" category="Settings">
+        <value>DontBother</value>
+      </variable>
+      <variable name="techFlow.DefaultDebugGlobalVariableValue" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.DefaultDebugGlobalVariableValue.IfParentNotFound" category="Settings">
+        <value>0</value>
+      </variable>
+      <variable name="techFlow.ShowDebugDropdown" category="Settings">
+        <value>Inherit</value>
+      </variable>
+      <variable name="techFlow.ShowDebugDropdown.IfParentNotFound" category="Settings">
+        <value>Hide</value>
+      </variable>
+      <variable name="Launcher.ShowRTDP" category="Settings">
+        <value>True</value>
+      </variable>
+      <variable name="Launcher.ShowProjectHistory" category="Settings">
+        <value>Show</value>
+      </variable>
+      <variable name="techFlow.SupportedOperationMode" category="Settings">
+        <value>SingleSite,TrueParallel,IndexParallel</value>
+      </variable>
+      <!-- *********************************************************************** -->
+      <variable name="VisualStudioProjects" category="repo">
+        <value>..\..\Projects\VSProjects\SampleProfile</value>
+      </variable>
+      <variable name="TestRecipes" category="repo">
+        <value>..\..\Projects\TestRecipes\SampleProfile</value>
+      </variable>
+      <variable name="TestPrograms" category="repo">
+        <value>..\..\Projects\TestPrograms\SampleProfile</value>
+      </variable>
+      <variable name="ProductionSystemRecipes" category="repo">
+        <value>..\..\Projects\PSRecipes\SampleProfile</value>
+      </variable>
+      <variable name="Results" category="repo">
+        <value>..\..\Results\SampleProfile</value>
+      </variable>
+      <variable name="ProductionSystem.dll" category="dll">
+        <value>Aemulus.Tech.Flow.ProductionSystem.dll</value>
+      </variable>
+      <variable name="Launcher.dll" category="dll">
+        <value>Aemulus.Tech.Flow.Launcher.dll</value>
+      </variable>
+      <variable name="LauncherSettings" category="Launcher">
+        <value>LauncherSettings.xml</value>
+      </variable>
+      <variable name="NewLotTUI" category="dll">
+        <value>Lot.dll</value>
+      </variable>
+      <variable name="Report" category="Library">
+        <value>report</value>
+      </variable>
+      <variable name="DBCombiner" category="CustomTool">
+        <value>..\..\bin\DBCombiner.exe</value>
+      </variable>
+      <variable name="ProdSys.DefaultPlatform.IfParentNotFound " category="Settings">
+        <value>x64</value>
+      </variable>
+      <variable name="techFlow.SupportedTargetPlatform.IfParenNotFound" category="Settings">
+        <value>x64</value>
+      </variable>
+      <variable name="techFlow.ShowTargetPlatformDropdown.IfParenNotFound" category="Settings">
+        <value>Show</value>
+      </variable>
+      <variable name="SiteGroup.IncludeExcludeDUTBasedOnCommitResult" category="Settings">
+        <value>True</value>
+      </variable>
+    </variablecollection>
+  </profile>
+</profilecollection>
